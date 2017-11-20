@@ -6,7 +6,6 @@
  */
 namespace aminkt\widgets\inputTag;
 
-use common\widgets\InputTag\InputTagAsset;
 use yii\base\Widget;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
