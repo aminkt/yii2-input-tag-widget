@@ -3,14 +3,14 @@
  * Define Assets of  inout tag widget
  */
 
-namespace common\widgets\InputTag;
+namespace aminkt\widgets\inputTag;
 
 
 use yii\web\View;
 
 class InputTagAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = "@common/widgets/InputTag/assets";
+    public $sourcePath = __DIR__."/assets";
     public $css = [
         'jquerytagsinput.css',
         'fa.css',
