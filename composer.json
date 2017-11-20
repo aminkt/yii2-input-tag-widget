@@ -1,0 +1,25 @@
+{
+    "name": "aminkt/yii2-input-tag-widget",
+    "description": "Advanced Input tag widget for yii2 applications.",
+    "keywords": ["yii", "input tag", "ui", "widget", "tag", "input"],
+    "type": "yii2-extension",
+    "support": {
+    	"source": "https://gitlab.com/aminkt/yii2-input-tag-widget"
+    },
+    "authors": [
+    	{
+    		"name": "Amin Keshavarz",
+    		"email": "ak_1596@yahoo.com"
+    	}
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.11"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"aminkt\\widgets\\inputTag\\": ""
+    	}
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
