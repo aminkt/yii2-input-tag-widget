@@ -4,7 +4,7 @@
  * Class InputTag
  * create a ui for input tag for get data as tag
  */
-namespace aminkt\widgets\InputTag;
+namespace aminkt\widgets\inputTag;
 
 use common\widgets\InputTag\InputTagAsset;
 use yii\base\Widget;
