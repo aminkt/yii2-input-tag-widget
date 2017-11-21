@@ -6,7 +6,6 @@
  */
 namespace aminkt\widgets\inputTag;
 
-use common\widgets\InputTag\InputTagAsset;
 use yii\base\Widget;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
@@ -69,17 +68,16 @@ JS;
                 echo $this->form->field($this->model, $this->attribute)->textInput($this->options)->label(false);
             else
                 echo $this->form->field($this->model, $this->attribute)->textInput($this->options);
+        } else if ($this->model) {
+            echo Html::activeTextInput($this->model, $this->attribute, $this->options);
+        } else {
+            echo Html::textInput($this->name, $this->options);
         }
-
-        else if ($this->model)
-            echo Html::activeTextInput($this->model, $this->attribute, ['id' => $this->id], $this->options);
-        else
-            echo Html::textInput($this->name, null, ['id' => $this->id], $this->options);
     }
 
     public function run()
     {
-        $this->generateJs();
         $this->generateInput();
+        $this->generateJs();
     }
 }
