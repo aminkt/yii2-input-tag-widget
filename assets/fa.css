@@ -50,7 +50,7 @@ div.tagsinput span.tag {
     margin-left: 5px;
     margin-bottom: 5px;
     font-size: 14px;
-    font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-family: inherit;
 }
 
 div.tagsinput div {
@@ -62,7 +62,7 @@ div.tagsinput input {
     width: initial !important;
     margin: 0px 5px 5px 0px;
     font-size: 15px;
-    font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+    font-family: inherit;
     border: 1px solid transparent;
     padding: 5px;
     background: transparent none repeat scroll 0% 0%;

@@ -33,8 +33,13 @@ class InputTag extends Widget
     public function init()
     {
         parent::init();
-        if (!$this->id)
-            $this->id = "inputTag";
+        if (!$this->id) {
+            if ($this->model and $this->attribute) {
+                $this->id = Html::getInputId($this->model, $this->attribute);
+            } else {
+                $this->id = "inputTag";
+            }
+        }
         if (!$this->name and !$this->model) {
             $this->model = null;
             $this->name = "inputTag";
