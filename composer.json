@@ -4,7 +4,7 @@
     "keywords": ["yii", "input tag", "ui", "widget", "tag", "input"],
     "type": "yii2-extension",
     "support": {
-    	"source": "https://gitlab.com/aminkt/yii2-input-tag-widget"
+    	"source": "https://github.com/aminkt/yii2-input-tag-widget"
     },
     "authors": [
     	{
